@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script> -->
+</head>
+<body>
+
+<div class="container">
+    <div class="scr">
+    <input type="text" class="scr1" id="val">
+    
+    </div>
+    <!-- <span class="ans" id="ans">
+        Result:
+    </span> -->
+     <div class="buttons">
+        <table>
+            <tr>
+                <td class="btn_a" id="1">AC</td>
+                <td class="btn_a" id="2">&lt;=</td>
+                <td class="btn_a" id="3">%</td>
+                <td class="btn_a" id="4">/</td>
+            </tr>
+            <tr>
+                <td class="btn_a" id="5">7</td>
+                <td class="btn_a" id="6">8</td>
+                <td class="btn_a" id="7">9</td>
+                <td class="btn_a" id="8">X</td>
+            </tr>
+            <tr>
+                <td class="btn_a" id="9">4</td>
+                <td class="btn_a" id="10">5</td>
+                <td class="btn_a" id="11">6</td>
+                <td class="btn_a" id="12">-</td>
+            </tr>
+            <tr>
+                <td class="btn_a" id="13">1</td>
+                <td class="btn_a" id="14">2</td>
+                <td class="btn_a" id="15">3</td>
+                <td class="btn_a" id="19">+</td>
+            </tr>
+            <tr>
+                <td class="btn_a" id="17">q</td>
+                <td class="btn_a" id="18">0</td>
+                <td class="btn_a" id="19">.</td>
+                <td class="btn_a" id="20">=</td>
+            </tr>
+
+        </table>
+     </div>
+     <script src="calculator.js">
+      
+     </script>
+</div>
+    <!-- <div class="menu"><button id="menu">Change background color</button></div> -->
+    <script>
+            var but=document.getElementById("menu");
+            $("document").ready(()=>{
+                $(".menu").on("click",()=>{
+                    var color=prompt("Enter color name: ");            
+            });
+            });
+    </script>
+
+</body>
+</html>
